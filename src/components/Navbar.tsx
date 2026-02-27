@@ -31,8 +31,8 @@ const Navbar = () => {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4" />
-                <span className="hidden sm:inline">Opening Hours: Mon - Fri : 8.00 am - 8.00 pm, Sat - Sun : 10.00 am - 6.00 pm</span>
-                <span className="sm:hidden">Mon - Sun : 8.00 am - 8.00 pm</span>
+                {/* <span className="hidden sm:inline">Opening Hours: Mon - Fri : 8.00 am - 8.00 pm, Sat - Sun : 10.00 am - 6.00 pm</span> */}
+                {/* <span className="sm:hidden">Mon - Sun : 8.00 am - 8.00 pm</span> */}
               </div>
             </div>
             <div className="flex items-center gap-4">
